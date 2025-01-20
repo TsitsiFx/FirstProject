@@ -1,5 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  width: 100%
 }
 
 .todo-grid, .todo-input-grid {
