@@ -43,9 +43,17 @@ function addList() {
   const inputElement = document.        querySelector('.js-input');
 
   const name = inputElement.value;
+  if (name === ''){
+    alert ('ENTER A TASK')
+    return false
+  }
  
   const inputDate = document.querySelector  ('.js-date')
  const dueDate = inputDate.value;
+  if (dueDate === ''){
+  alert ('ENTER PREFERRED DATE');
+  return false;
+ }
 
   toDoList.push(
   {
