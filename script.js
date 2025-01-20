@@ -1,5 +1,5 @@
 const toDoList = [
-  {
+ /* {
     name: 'Learn Piano',
     dueDate: '2022-12-22'
   },
@@ -8,6 +8,7 @@ const toDoList = [
     dueDate: '2024-11-19'
 
   }
+  */
 ]
 
 
