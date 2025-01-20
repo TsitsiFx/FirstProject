@@ -1,15 +1,4 @@
-const toDoList = [
- /* {
-    name: 'Learn Piano',
-    dueDate: '2022-12-22'
-  },
-  {
-    name: 'Play Guitar',
-    dueDate: '2024-11-19'
-
-  }
-  */
-]
+const toDoList = []
 
 
 
