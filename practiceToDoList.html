@@ -1,18 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>To Do List</title>
-</head>
-<body>
-  <input class="js-input" type="text" placeholder="To do name"> 
-  <button onclick="
-  addToDo();
-  " class="js-add-button">Add</button>
-  <p class="displayList"></p>
-  <script src="scripts/practiceToDoList.js">
-
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+    <style >
+    </style>
+    <link rel="stylesheet" href="styles/11-to-do-list.css">
+    
+  </head> 
+    <body> 
+      <h1>Todo List</h1> 
+      <div class="todo-input-grid">
+        <input 
+          class="js-input name-input" placeholder="Todo name" type="text">
+        <input 
+          type="date" class="js-date due-date-input">
+        <button
+          class="add-todo-button"
+          onclick="
+          addList();">Add
+        </button>
+      </div>
+      <div
+        class="js-display-list todo-grid">
+      </div>
+     
+  <script src="scripts/11-to-do-list.js">
   </script>
-</body>
-</html>
+  </body>
+</html> 
