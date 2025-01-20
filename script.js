@@ -24,14 +24,6 @@ function renderTodoList() {
           renderTodoList();">Delete</button>
          </div>
       `
-      if (dueDate === ''){
-        dueDate === '2024-11-19'   
-       console.log('no date bruh')
-      }
-      else {
-       dueDate === '2024-11-19'
-      }
-     
     toDoListHtml += html
  
   }
